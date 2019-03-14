@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Include other widget or layout tags here. These are considered
+            "child views" or "children" of the linear layout -->
+    <TextView
+        android:id="@+id/contadorEntrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:clickable="false"
+        />
+
+    <Button
+        android:id="@+id/botonEntrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Entrada"/>
+    <TextView
+        android:id="@+id/contadorSalida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:clickable="false"/>
+    <Button
+        android:id="@+id/botonSalida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Salida"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TareaGrupal</string>
+    <string name="Inicio">Entrada</string>
+    <string name="add">Agregar</string>
+    <string name="salida">Salida</string>
+    <string name="Entrada">Entrada</string>
+    <string name="Salida">Salida</string>
+</resources>
